@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    padding-top:800px;
+    text-align:center;
+
+}
+.profile{
+    width:175px;
+    margin-bottom: 50px;
+    border-radius:50%;
+}
+#welcome{
+    position:absolute;
+    overflow:hidden;
+    height:800px;
+    color:white;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    opacity:.83;
+    background:linear-gradient(aqua 0%,blue 100%);
+    display:table;
+    width:100%;
+    font-family: 'Lobster', cursive;
+}
+.inner{
+    display:table-cell;
+    position:relative;
+    vertical-align:middle;
+}
+.line{
+    width:60px;
+    height:6px;
+    background-color:black;
+    margin:8px auto;
+}
+#bio{
+    padding:50px;
+    font-size:40px;
+}
+p{
+    max-width:450px;
+    margin:25px auto;
+}
+.menu{
+    list-style:none;
+    position:fixed;
+    top:10px;
+    right:30px;
+    z-index:10;
+    cursor:pointer;
+}
+.links{
+    float:left;
+    color:red;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:10px;
+    padding-left:10px;
+    font-size:40px;
+    font-family: 'Qahiri', sans-serif;
+}
+.links:hover{
+    background:linear-gradient(yellow 0%, orange 100%);
+}
+#writings{
+    margin-bottom:50px;
+}
+.article:hover{
+    color:maroon;
+}
